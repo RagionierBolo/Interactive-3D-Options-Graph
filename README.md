@@ -2,7 +2,7 @@
 
 ## Setup
 
-The notebook uses this two external libraries, it is very importat to have tha last version of `yfinance`.
+The notebook uses these two external libraries, it is very important to have the last version of `yfinance`.
 
 ```bash
 !pip install yfinance
@@ -18,7 +18,7 @@ In some types of notebooks (like Colab) the `%matplotlib` widget can create head
 
 ## Problems
 
-The program uses the current Bids to calculate the prices so if we execute the Notebook during non-trading hours we'll get no data about the price. In this cases it can be notice that almost all the bids are = 0.
+The program uses the current Bids to calculate the prices so if we execute the Notebook during non-trading hours we'll get no data about the price. In this cases, it can be noticed that almost all the bids are = 0.
 
 ![1706896319636](image/README/1706896319636.png)
 
